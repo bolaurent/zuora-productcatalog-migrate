@@ -21,6 +21,9 @@ In future, the ProductionId__c fields might be able to be used to sync changes,
 rather than deleting the entire catalog and creating anew.
 
 
+You should also make sure that any existing products you want 
+the script to be able to delete are not referenced by any subscriptions.
+The easiest way to do this is to delete all the accounts.
 
 
 Usage
